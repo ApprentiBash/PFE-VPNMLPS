@@ -1,0 +1,46 @@
+en
+conf t
+hostname R2-PE-MPLS
+ip cef
+mpls ip
+end 
+
+conf t
+ip vrf site_A
+rd 1:1
+route-target export 1:1
+route-target import 1:1
+route-target import 1:2
+end
+
+conf t
+interface GigabitEthernet 0/1
+ip vrf forwarding site_A
+ip address 10.10.20.2 255.255.255.248
+no shut
+end
+
+conf t
+interface GigabitEthernet 0/0
+ip address 172.16.10.1 255.255.255.248
+no shut
+end
+
+
+conf t
+interface Loopback0
+ip address 2.2.2.2 255.255.255.255
+end
+
+conf t
+router ospf 1
+mpls ldp autoconfig
+network 2.2.2.2 0.0.0.0 area 0
+network 172.16.10.0 0.0.0.7 area 0
+end
+
+conf t
+router ospf 2 vrf site_A
+redistribute bgp 200 subnets
+network 10.10.20.0 0.0.0.7 area 0
+end
