@@ -1,3 +1,5 @@
+# **PROJET**
+___
 **Sicoh souhaite mettre à jour son système informatique pour rester concurrentiel dans un monde numérique en constante évolution. 
 L'objectif est de mettre en place un système fiable, sécurisé et performant qui réponde aux besoins de l'ensemble du personnel. 
 Nous avons besoin d'un système centralisé capable de gérer tous les utilisateurs, tout en garantissant une disponibilité continue.  
