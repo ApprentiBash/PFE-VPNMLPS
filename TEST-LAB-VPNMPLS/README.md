@@ -1,7 +1,7 @@
 # **VPN-MPLS** 
 
 <figure>
-  <img src="https://github.com/ApprentiBash/VPN-MPLS/blob/main/Screen/2024-03-08_18h00_34.png?raw=true" alt="Schéma structurel du Lab EVE-NG">
+  <img src="https://github.com/ApprentiBash/PFE-VPNMLPS/blob/main/TEST-LAB-VPNMPLS/screen/2024-03-08_18h00_34.png?raw=true" alt="Schéma structurel du Lab EVE-NG">
   <figcaption>Figure 1 : Schéma structurel du Lab EVE-NG</figcaption>
 </figure>
 
