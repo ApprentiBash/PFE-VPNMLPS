@@ -1,0 +1,41 @@
+en
+conf t
+hostname R1-CE-MPLS
+ip cef
+end
+conf t
+interface GigabitEthernet 0/0
+ip address 10.10.20.1 255.255.255.248
+no shut
+end
+
+conf t
+interface GigabitEthernet 0/1
+ip address 10.10.10.1 255.255.255.248
+no shut
+end
+
+conf t
+interface GigabitEthernet 0/2
+ip address 192.168.10.1 255.255.255.0
+no shut
+end
+
+
+conf t
+interface Loopback0
+ip address 1.1.1.1 255.255.255.255
+end
+
+conf t
+router ospf 1 
+network 192.168.10.0 0.0.0.255 area 0
+network 10.10.10.0 0.0.0.7 area 0
+network 10.10.20.0 0.0.0.7 area 0
+network 1.1.1.1 0.0.0.0 area 0
+default-information originate metric 10000
+redistribute connected subnets
+log-adjacency-changes
+exit
+end
+wr
