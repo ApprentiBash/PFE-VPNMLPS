@@ -11,7 +11,7 @@ Dans le cadre du projet de fin d'étude, nous entreprenons la conception et la m
 Ce projet, centré sur l'utilisation de la technologie Multi-Protocol Label Switching (MPLS), vise à établir un réseau privé virtuel (VPN) capable de connecter cinq sites d'entreprise distincts.
 
 Actuellement, nous amorçons cette initiative en démarrant avec l'interconnexion de deux sites d'entreprise. 
-Les routeurs d'entreprise (CE) R1-CE-MPLS et R8-CE-MPLS représentent ces deux sites initiaux. Ce laboratoire inaugural revêt une importance capitale, car il pose les fondations nécessaires pour l'architecture MPLS VPN complète. 
+Les routeurs d'entreprise (CE) R1-CE-MPLS et R8-CE-MPLS représentent ces deux sites initiaux. Ce laboratoire pose les fondations nécessaires pour l'architecture MPLS VPN complète. 
 Chaque site d'entreprise fonctionne comme une entité autonome, avec ses propres réseaux locaux et ses besoins spécifiques en matière de sécurité et de connectivité.
 ____
 ## **Objectif** 
