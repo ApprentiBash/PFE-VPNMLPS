@@ -1,0 +1,39 @@
+en
+conf t
+hostname R5-P-BGP-MPLS
+ip cef
+mpls ip
+end 
+
+conf t
+interface Loopback0
+ip address 5.5.5.5 255.255.255.255
+end
+
+conf t
+interface GigabitEthernet 0/0
+ip address 172.16.30.2 255.255.255.248
+no shut
+end
+
+conf t
+interface GigabitEthernet 0/1
+ip address 172.16.40.2 255.255.255.248
+no shut
+end
+
+conf t
+interface GigabitEthernet 0/2
+ip address 172.16.50.1 255.255.255.248
+no shut
+end
+
+conf t
+router ospf 1
+mpls ldp autoconfig
+network 5.5.5.5 0.0.0.0 area 0
+network 172.16.50.0 0.0.0.7 area 0
+network 172.16.40.0 0.0.0.7 area 0
+network 172.16.30.0 0.0.0.7 area 0
+end
+wr
