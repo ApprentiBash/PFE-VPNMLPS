@@ -9,7 +9,6 @@ Nos bureaux à Budapest, Lyon, Londres, Bangalore et Tokyo doivent être interco
 
 - Nous envisageons d'utiliser la technologie MPLS pour des connexions dédiées et sécurisées entre les sites. 
 
-- Nous souhaitons restreindre l'accès à certains sites web depuis nos bureaux pour des raisons de sécurité. 
 
 - La protection de nos serveurs au Japon est une priorité, et nous comptons sur un pare-feu robuste pour assurer cette sécurité. 
 
@@ -17,11 +16,7 @@ Nos bureaux à Budapest, Lyon, Londres, Bangalore et Tokyo doivent être interco
 
 - Nous cherchons à réduire les coûts liés aux appels téléphoniques entre nos bureaux en adoptant la technologie de voix sur IP (VoIP). 
 
-- Le support client vers notre centre d'appels en Inde doit être facilement accessible pour nos employés. 
-
 - La mise en place d'un système de partage de fichiers fiable et sauvegardé est essentielle pour favoriser la collaboration. 
-
-- Nous souhaitons également que nos fichiers soient accessibles de manière synchronisée depuis n'importe quel endroit. 
 
 - Nous visons à automatiser un maximum de processus, notamment en utilisant des pratiques DevOps et DevSecOps, pour une gestion plus efficace de notre infrastructure. 
 
