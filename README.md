@@ -1,4 +1,4 @@
-# **PROJET**
+# **PROJET D'ETUDE**
 ___
 **Sicoh souhaite mettre à jour son système informatique pour rester concurrentiel dans un monde numérique en constante évolution. 
 L'objectif est de mettre en place un système fiable, sécurisé et performant qui réponde aux besoins de l'ensemble du personnel. 
