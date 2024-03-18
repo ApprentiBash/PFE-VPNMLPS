@@ -15,7 +15,7 @@ Les routeurs d'entreprise (CE) R1-CE-MPLS et R8-CE-MPLS représentent ces deux s
 Chaque site d'entreprise fonctionne comme une entité autonome, avec ses propres réseaux locaux et ses besoins spécifiques en matière de sécurité et de connectivité.
 ____
 ## **Objectif** 
-L'objectif principal de ce laboratoire initial est de créer avec succès une architecture MPLS VPN interconnectant les deux sites d'entreprise mentionnés. 
+L'objectif principal de ce lab est de créer avec succès une architecture MPLS VPN interconnectant deux sites d'entreprise. 
 Il s'agit de la première étape d'un projet plus vaste. 
 Les tâches spécifiques comprennent la configuration des protocoles de routage (OSPF, BGP) et de MPLS sur les routeurs, 
 la définition d'instances VRF pour assurer l'isolation des réseaux d'entreprise, et l'établissement de sessions BGP entre les routeurs de fournisseur de services (PE).
